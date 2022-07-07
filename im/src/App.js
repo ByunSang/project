@@ -1,9 +1,11 @@
-import './App.css';
+import React from 'react';
+import Layout from './components/layout/layout'
 
 function App() {
   return (
-      <p class="text-4xl text-red-600">Hello</p>
+    <div id="app">
+      <Layout />
+    </div>
   );
 }
-
 export default App;
