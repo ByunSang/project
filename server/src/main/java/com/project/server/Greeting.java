@@ -1,6 +1,7 @@
-package toy.project;
+package com.project.server;
 
 public class Greeting {
+
     private final long id;
     private final String content;
 
